@@ -6,7 +6,7 @@
 
 Тут в принципе ничего сложного, просто идем на [github.com](https://github.com/), вводим почту и пароль, входим, вуаля, у нас есть аккаунт на GitHub. Здесь мы можем создавать свои репозитории, в том числе и приватные, оценить чей-то репозиторий, подписаться на обновления репозитория, подписаться на человека, искать какие-то репозитории, поставить аватарку и статус :)
 
-![image-20200502220653020](images\1.png)
+![Мой аккаунт](https://github.com/Roker2/BookAboutBuilding/raw/master/%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%202%20git%2C%20%D1%81%20%D1%87%D0%B5%D0%BC%20%D0%B5%D0%B3%D0%BE%20%D0%B5%D0%B4%D1%8F%D1%82%20%D0%B8%20%D0%B7%D0%B0%D1%87%D0%B5%D0%BC%20%D0%BE%D0%BD/images/1.png)
 
 Перейдем к тому, чтобы наши коммиты (commits) и черри-пики (cherry-picks) имели информацию о нас.
 
@@ -19,6 +19,6 @@ git config --global user.name "John Doe"
 git config --global user.email johndoe@example.com
 ```
 
-[Оригинал]([https://git-scm.com/book/ru/v2/%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5-%D0%9F%D0%B5%D1%80%D0%B2%D0%BE%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-Git](https://git-scm.com/book/ru/v2/Введение-Первоначальная-настройка-Git)), откуда взят пример
+[Оригинал](https://git-scm.com/book/ru/v2/%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5-%D0%9F%D0%B5%D1%80%D0%B2%D0%BE%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F-%D0%BD%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-Git), откуда взят пример
 
 user.name это никнейм вашего GitHub аккаунта, а user.email - почта, которую Вы использовали при регистрации на GitHub.
