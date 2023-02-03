@@ -8,12 +8,13 @@
 
 2. [libncurses5](#libncurses5)
 
-3. metalava
+3. [metalava](#Metalava) 
 
 4. [UnicodeDecodeError](#unicodedecodeerror-ascii-codec-cant-decode-byte-0xd0)
 
 
-# ccache
+
+### ccache
 
 `error: Failed to create directory /home/user/.ccache/tmp: Read -only file system`
 
@@ -71,7 +72,7 @@
 
 
 
-# libncurses5
+### libncurses5
 
 `error while loading shared libraries: libncurses.so.5: cannot open shared object file: No such file or directory`
 
@@ -90,7 +91,7 @@
 >   ```
 
 ### Metalava
-Симптомы: Сборка останавливается с ошибкой об нехватке ОЗУ, либо очень долго собирает metalava
+`Симптомы: Сборка останавливается с ошибкой об нехватке ОЗУ на этапе сборки Metalava, либо надолго зависает`
 
 > Фикс:
 >
@@ -134,9 +135,9 @@
 >
 > 
 >
-> **Android 11** *(возможно устарело)*
+> **Android 11-13**
 >
-> Для него все тоже самое, отличие только в [коммите](https://review.lineageos.org/c/LineageOS/android_build_soong/+/289926) и какие компоненты собираем заранее.
+> Для него все тоже самое, отличие только в [коммите](https://github.com/verNANDo57/android_build_soong/commit/ffc8846a01fcfc20d6cf8ca701ef73d99f15acad) и какие компоненты собираем заранее.
 >
 > ```bash
 > mka api-stubs-docs && mka module-lib-api-stubs-docs && mka system-api-stubs-docs && mka test-api-stubs-docs
@@ -145,7 +146,7 @@
 > [Референс](https://gist.github.com/verNANDo57/d76bb6e6e4b887101cf5a1cf64c66cef)
 
 
-# UnicodeDecodeError: 'ascii' codec can't decode byte 0xd0
+### UnicodeDecodeError: 'ascii' codec can't decode byte 0xd0
 
 ![image-20210218203603071](images/1.png)
 
