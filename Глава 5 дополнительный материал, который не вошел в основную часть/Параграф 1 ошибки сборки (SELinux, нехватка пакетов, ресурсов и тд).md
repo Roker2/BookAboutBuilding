@@ -8,11 +8,13 @@
 
 2. [libncurses5](#libncurses5)
 
-3. [UnicodeDecodeError](#unicodedecodeerror-ascii-codec-cant-decode-byte-0xd0)
+3. [metalava](#Metalava) 
+
+4. [UnicodeDecodeError](#unicodedecodeerror-ascii-codec-cant-decode-byte-0xd0)
 
 
 
-# ccache
+### ccache
 
 `error: Failed to create directory /home/user/.ccache/tmp: Read -only file system`
 
@@ -70,7 +72,7 @@
 
 
 
-# libncurses5
+### libncurses5
 
 `error while loading shared libraries: libncurses.so.5: cannot open shared object file: No such file or directory`
 
@@ -88,9 +90,63 @@
 >   yay ncurses5-compat-libs
 >   ```
 
+### Metalava
+`Симптомы: Сборка останавливается с ошибкой об нехватке ОЗУ на этапе сборки Metalava, либо надолго зависает`
+
+> Фикс:
+>
+> **Android 10** *(возможно устарело)*
+>
+> 1) Заходим в папку build/soong:
+>
+> ```bash
+> cd build/soong
+> ```
+>
+> 2) Открываем на Lineage OS Gerrit нужный нам [коммит](https://review.lineageos.org/c/LineageOS/android_build_soong/+/266411)
+>
+> 3) Нажимаем кнопку "`DOWNLOAD`"
+>
+> ![image-20210528014449000](images/2.png)
+>
+> 4) Напротив варианта "`Cherry Pick`" нажимаем кнопку копирования
+>
+> ![image-20210528014553371](images/3.png)
+>
+> 5) Копируем в терминал и нажимаем Enter
+>
+> 6) Возвращаемся в корень исходников:
+>
+> ```bash
+> cd ../..
+> ```
+>
+> 7) Выполняем все подготовительные команды для сборки, но не запускаем
+>
+> 8) Заранее и отдельно собираем по одному компоненту, который требует много ОЗУ:
+>
+> ```bash
+> mka api-stubs-docs && mka hiddenapi-lists-docs && mka system-api-stubs-docs && mka test-api-stubs-docs
+> ```
+>
+> 9) Запускаем сборку прошивки
+>
+> [Референс](https://gist.github.com/mikecriggs/d98f2fc3461b23732fabebb020e4c42e)
+>
+> 
+>
+> **Android 11-13**
+>
+> Для него все тоже самое, отличие только в [коммите](https://github.com/verNANDo57/android_build_soong/commit/ffc8846a01fcfc20d6cf8ca701ef73d99f15acad) и какие компоненты собираем заранее.
+>
+> ```bash
+> mka api-stubs-docs && mka module-lib-api-stubs-docs && mka system-api-stubs-docs && mka test-api-stubs-docs
+> ```
+>
+> [Референс](https://gist.github.com/verNANDo57/d76bb6e6e4b887101cf5a1cf64c66cef)
 
 
-# UnicodeDecodeError: 'ascii' codec can't decode byte 0xd0
+### UnicodeDecodeError: 'ascii' codec can't decode byte 0xd0
 
 ![image-20210218203603071](images/1.png)
 
