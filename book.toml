@@ -1,0 +1,6 @@
+[book]
+authors = ["Roker2","CakesTwix","Ultra119","SanyaPilot"]
+language = "ru"
+multilingual = false
+src = "src"
+title = "About Android Building"
