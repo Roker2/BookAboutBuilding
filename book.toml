@@ -4,3 +4,6 @@ language = "ru"
 multilingual = false
 src = "src"
 title = "About Android Building"
+
+[output.html]
+git-repository-url = "https://github.com/Roker2/BookAboutBuilding"
