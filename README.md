@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/icon.png" width="128"/>
+  <img src="src/images/icon.png" width="128"/>
   <p align="center"><b>BookAboutBuilding</b></p>
 </p>
 
