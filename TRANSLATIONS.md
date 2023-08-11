@@ -89,7 +89,7 @@ header (the first entry with `msgid ""`) to the correct language.
 > translations will be wrong after this, so you must inspect them by hand
 > afterwards.
 
-Next, please update the file `.github/labeler.yml` to include the new language:
+Next, please update the file `LANGUAGES` to include the new language:
 
 ```diff
 - uk
