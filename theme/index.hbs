@@ -162,10 +162,8 @@
                           // language into account.
                           {{#if (eq language "ru")}}
                           let full_path_to_root = "{{ path_to_root }}";
-                          console.log("ru")
                           {{else}}
                           let full_path_to_root = "{{ path_to_root }}../";
-                          console.log("uk")
                           {{/if}}
                           // The page path (mdbook only gives us
                           // access to the path to the Markdown file).
@@ -178,6 +176,17 @@
                               }
                           }
                         </script>
+
+                        {{#if (eq path "Введение.md")}}
+                          <a href="epub/About%20Android%20Building.epub" title="Download as epub" aria-label="Download as epub">
+                            <i id="book-button" class="fa fa-book"></i>
+                        </a>
+                          {{else}}
+                          <a href="../epub/About%20Android%20Building.epub" title="Download as epub" aria-label="Download as epub">
+                            <i id="book-button" class="fa fa-book"></i>
+                        </a>
+                        {{/if}}
+
 
                         {{#if print_enable}}
                         <a href="{{ path_to_root }}print.html" title="Print this book" aria-label="Print this book">
@@ -195,7 +204,7 @@
                             <i id="git-edit-button" class="fa fa-edit"></i>
                         </a>
                         {{else}}
-                        <a href="https://github.com/rust-unofficial/patterns/edit/main/po/{{language}}.po"
+                        <a href="https://github.com/Roker2/BookAboutBuilding/edit/master/po/{{language}}.po"
                            title="Suggest an edit to the translation" aria-label="Suggest an edit to the translation">
                             <i id="git-edit-button" class="fa fa-edit"></i>
                         </a>

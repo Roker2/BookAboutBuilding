@@ -6,6 +6,7 @@ src = "src"
 title = "About Android Building"
 
 [output.html]
+site-url = "/BookAboutBuilding/"
 curly-quotes = true
 git-repository-url = "https://github.com/Roker2/BookAboutBuilding"
 additional-css = ["./theme/css/language-picker.css"]
