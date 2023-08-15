@@ -21,27 +21,27 @@ msgid "Глава 1 Начало начал"
 msgstr ""
 
 #: src/SUMMARY.md:6
-msgid "Параграф 1 выбор подходящей системы"
+msgid "Параграф 1 Выбор подходящей системы"
 msgstr ""
 
 #: src/SUMMARY.md:7
-msgid "Параграф 2 установка системы и настройка её среды"
+msgid "Параграф 2 Установка системы и настройка её среды"
 msgstr ""
 
 #: src/SUMMARY.md:8
-msgid "Параграф 3 качаем исходники прошивки"
+msgid "Параграф 3 Качаем исходники прошивки"
 msgstr ""
 
 #: src/SUMMARY.md:9
-msgid "Параграф 4 исходники устройства"
+msgid "Параграф 4 Исходники устройства"
 msgstr ""
 
 #: src/SUMMARY.md:10
-msgid "Параграф 5 инициализация и сборка"
+msgid "Параграф 5 Инициализация и сборка"
 msgstr ""
 
 #: src/SUMMARY.md:11
-msgid "Параграф 6 в завершение"
+msgid "Параграф 6 В завершение"
 msgstr ""
 
 #: src/SUMMARY.md:13
@@ -128,7 +128,7 @@ msgstr ""
 
 #: src/Chapter1/c1p1.md:1
 #: src/Chapter1/c1p1.md:1
-msgid "# Параграф 1: выбор подходящей системы  "
+msgid "# Параграф 1: Выбор подходящей системы  "
 msgstr ""
 
 #: src/Chapter1/c1p1.md:3
@@ -138,13 +138,13 @@ msgid ""
 "пропустить, так как, думаю, вы и без меня все знаете."
 msgstr ""
 
-#: src/Chapter1/c1p1.md:7
-#: src/Chapter1/c1p1.md:7
+#: src/Chapter1/c1p1.md:6
+#: src/Chapter1/c1p1.md:6
 msgid "### Что такое Linux, и с чем его едят"
 msgstr ""
 
-#: src/Chapter1/c1p1.md:9
-#: src/Chapter1/c1p1.md:9
+#: src/Chapter1/c1p1.md:8
+#: src/Chapter1/c1p1.md:8
 msgid ""
 "Linux - это ОС с открытым исходным кодом, разрабатываемая сообществом "
 "программистовю. Ядро Linux разрабатывается независимо, а сами дистрибутивы "
@@ -153,13 +153,13 @@ msgid ""
 "выбор дистрибутива для сборки прошивки."
 msgstr ""
 
-#: src/Chapter1/c1p1.md:12
-#: src/Chapter1/c1p1.md:12
+#: src/Chapter1/c1p1.md:11
+#: src/Chapter1/c1p1.md:11
 msgid "#### Почему же нельзя заниматься этим на всем привычной ОС, Windows?"
 msgstr ""
 
-#: src/Chapter1/c1p1.md:14
-#: src/Chapter1/c1p1.md:14
+#: src/Chapter1/c1p1.md:13
+#: src/Chapter1/c1p1.md:13
 msgid ""
 "Ну, сборка на Linux считается более предпочтительной как минимум потому что "
 "многих утилит нет на Windows, а те которые есть, поставляются в крайне "
@@ -167,8 +167,8 @@ msgid ""
 "это на Windows при помощи виртуальных машин, или же WSL на Windows 10."
 msgstr ""
 
-#: src/Chapter1/c1p1.md:16
-#: src/Chapter1/c1p1.md:16
+#: src/Chapter1/c1p1.md:15
+#: src/Chapter1/c1p1.md:15
 msgid ""
 "**WSL** - Windows Subsystem for Linux - Фича в Windows 10/11, позволяющая "
 "запускать Linux контейнеры прямо в Windows. Эти контейнеры можно установить "
@@ -176,44 +176,40 @@ msgid ""
 "предпочитают нативный Linux, т. к. WSL может быть менее стабильным."
 msgstr ""
 
-#: src/Chapter1/c1p1.md:20
-#: src/Chapter1/c1p1.md:20
+#: src/Chapter1/c1p1.md:18
+#: src/Chapter1/c1p1.md:18
 msgid "### Ну что ж, приступим?"
 msgstr ""
 
-#: src/Chapter1/c1p1.md:22
-#: src/Chapter1/c1p1.md:22
+#: src/Chapter1/c1p1.md:20
+#: src/Chapter1/c1p1.md:20
 msgid ""
 "Хорошо, если вы уже решились познать новую ОС, и начать все таки собирать "
 "прошивки (и не только), то начнем выбирать дистрибутив для вас."
 msgstr ""
 
-#: src/Chapter1/c1p1.md:24
-#: src/Chapter1/c1p1.md:24
-msgid "Большинство дистрибутивов разделяются на 2 лагеря:"
+#: src/Chapter1/c1p1.md:22
+#: src/Chapter1/c1p1.md:22
+msgid "Большинство дистрибутивов разделяются на несколько лагерей:"
 msgstr ""
 
-#: src/Chapter1/c1p1.md:26
-#: src/Chapter1/c1p1.md:26
-msgid "- Debian-like\n- Arch-like"
-msgstr ""
-
-#: src/Chapter1/c1p1.md:29
-#: src/Chapter1/c1p1.md:29
+#: src/Chapter1/c1p1.md:24
+#: src/Chapter1/c1p1.md:24
 msgid ""
-"Как следует из названия, основой для всех Debian-like дистрибутивов является "
-"дистрибутив Debian, а основой Arch-like - Arch Linux"
+"- Debian\n"
+"- Arch Linux\n"
+"- Fedora Linux"
 msgstr ""
 
-#: src/Chapter1/c1p1.md:31
-#: src/Chapter1/c1p1.md:31
+#: src/Chapter1/c1p1.md:28
+#: src/Chapter1/c1p1.md:28
 msgid ""
 "Основное различие - система управления пакетами, или **пакетный менеджер**. "
 "С этим всем мы познакомимся в следующем параграфе. "
 msgstr ""
 
-#: src/Chapter1/c1p1.md:33
-#: src/Chapter1/c1p1.md:33
+#: src/Chapter1/c1p1.md:30
+#: src/Chapter1/c1p1.md:30
 msgid ""
 "А пока, чтобы не грузить вас ненужной информацией, скажу: Debian-like "
 "системы подходят для новичков, легко освоить, шанс убить систему своими "
@@ -221,21 +217,30 @@ msgid ""
 "освоившихся пользователей, более сложны в настройке."
 msgstr ""
 
-#: src/Chapter1/c1p1.md:36
-#: src/Chapter1/c1p1.md:36
+#: src/Chapter1/c1p1.md:32
+#: src/Chapter1/c1p1.md:32
+msgid ""
+"Fedora Linux это что-то между Debian и Arch Linux по сложности. В Fedora "
+"довольно сложный установщик, но более кастомизируемый, чем в Debian. С "
+"коробки софта там в разы меньше, но можно подключить пользовательский "
+"репозиторий с множества софта, в том числе и проприетарного."
+msgstr ""
+
+#: src/Chapter1/c1p1.md:35
+#: src/Chapter1/c1p1.md:35
 msgid "#### Самые популярные Debian-like системы"
 msgstr ""
 
-#: src/Chapter1/c1p1.md:38
-#: src/Chapter1/c1p1.md:38
+#: src/Chapter1/c1p1.md:37
+#: src/Chapter1/c1p1.md:37
 msgid ""
 "- Ubuntu (https://ubuntu.com/)\n"
 "- Собственно, Debian (https://www.debian.org/index.ru.html)\n"
 "- Linux Mint (Основан на Ubuntu) (https://linuxmint.com/)"
 msgstr ""
 
-#: src/Chapter1/c1p1.md:42
-#: src/Chapter1/c1p1.md:42
+#: src/Chapter1/c1p1.md:41
+#: src/Chapter1/c1p1.md:41
 msgid ""
 "Все используют Ubuntu и вам советую. Хорошая ОС для как начала, так и для "
 "повседневного использования. От себя добавлю, что начинать нужно именно с "
@@ -245,20 +250,20 @@ msgid ""
 "привычна для Windows-юзера."
 msgstr ""
 
-#: src/Chapter1/c1p1.md:45
-#: src/Chapter1/c1p1.md:45
+#: src/Chapter1/c1p1.md:44
+#: src/Chapter1/c1p1.md:44
 msgid "#### Самые популярные Arch-like системы"
 msgstr ""
 
-#: src/Chapter1/c1p1.md:47
-#: src/Chapter1/c1p1.md:47
+#: src/Chapter1/c1p1.md:46
+#: src/Chapter1/c1p1.md:46
 msgid ""
 "- Manjaro (https://manjaro.org/)\n"
 "- Arch Linux (https://www.archlinux.org/)"
 msgstr ""
 
-#: src/Chapter1/c1p1.md:50
-#: src/Chapter1/c1p1.md:50
+#: src/Chapter1/c1p1.md:49
+#: src/Chapter1/c1p1.md:49
 msgid ""
 "Тут все немного не однозначно. С одной стороны, эти системы кушают меньше "
 "ОЗУ чем Debian-like, с другой стороны если ставить, то ставить Manjaro. "
@@ -274,22 +279,46 @@ msgid ""
 "в обычных репозиториях."
 msgstr ""
 
+#: src/Chapter1/c1p1.md:52
+#: src/Chapter1/c1p1.md:52
+msgid "#### Самые популярные Fedora-like системы"
+msgstr ""
+
 #: src/Chapter1/c1p1.md:54
 #: src/Chapter1/c1p1.md:54
+msgid ""
+"- Fedora Linux (https://fedoraproject.org/)\n"
+"- Fedora Spins (https://fedoraproject.org/spins)"
+msgstr ""
+
+#: src/Chapter1/c1p1.md:57
+#: src/Chapter1/c1p1.md:57
+msgid ""
+"Со стороны Fedora все легко, нету множества форков, в основном есть только "
+"одна ветка. Как и у Ubuntu, тут есть сборки с различными оболочками - Fedora "
+"Spins. В основную поставку Fedora Linux поставляется чистый GNOME без "
+"каких-то либо патчей от себя, но я не рекомендую использовать GNOME на "
+"слабых или когда нужны все 100% ресурсы ПК. В нашем случае нужны желательно "
+"максимум от нашего ПК, верно? Поэтому могу порекомендовать использовать "
+"более легкие DE, например LXQT, LXDE, XFCE, KDE."
+msgstr ""
+
+#: src/Chapter1/c1p1.md:59
+#: src/Chapter1/c1p1.md:59
 msgid ""
 "### Хорошо, я выбрал дистрибутив. Но тут есть различные версии с различными "
 "\"оболочками\", что выбрать?"
 msgstr ""
 
-#: src/Chapter1/c1p1.md:56
-#: src/Chapter1/c1p1.md:56
+#: src/Chapter1/c1p1.md:61
+#: src/Chapter1/c1p1.md:61
 msgid ""
 "Тут все чисто по вкусу. В каждой из оболочек есть что-то свое, какие-то "
 "легковесные, какие-то красивые. Вот список основных из них:"
 msgstr ""
 
-#: src/Chapter1/c1p1.md:58
-#: src/Chapter1/c1p1.md:58
+#: src/Chapter1/c1p1.md:63
+#: src/Chapter1/c1p1.md:63
 msgid ""
 "- Gnome (начиная с Ubuntu 18.04 используется вместо фирменной оболочки "
 "Unity)\n"
@@ -304,13 +333,13 @@ msgid ""
 "прекратили ее развитие)"
 msgstr ""
 
-#: src/Chapter1/c1p1.md:68
-#: src/Chapter1/c1p1.md:68
+#: src/Chapter1/c1p1.md:73
+#: src/Chapter1/c1p1.md:73
 msgid "### Вывод"
 msgstr ""
 
-#: src/Chapter1/c1p1.md:70
-#: src/Chapter1/c1p1.md:70
+#: src/Chapter1/c1p1.md:75
+#: src/Chapter1/c1p1.md:75
 msgid ""
 "Для новичков, или вы хотите поставить, настроить и забыть, лишь обновляя "
 "пакеты, ставим только Ubuntu или что-либо на ее основе (напр. Linux Mint). "
@@ -319,29 +348,29 @@ msgid ""
 msgstr ""
 
 #: src/Chapter1/c1p2.md:1
-msgid "# Установка и настройка системы"
+msgid "# Параграф 2: Установка и настройка системы"
 msgstr ""
 
 #: src/Chapter1/c1p2.md:3
 msgid "И так, вы выбрали дистрибутив. Приступим к установке!"
 msgstr ""
 
-#: src/Chapter1/c1p2.md:7
+#: src/Chapter1/c1p2.md:6
 msgid "### Для установки нам потребуется:"
 msgstr ""
 
-#: src/Chapter1/c1p2.md:9
+#: src/Chapter1/c1p2.md:8
 msgid ""
 "- Рабочий компьютер\n"
 "- USB флэшка\n"
 "- Интернет соединение"
 msgstr ""
 
-#: src/Chapter1/c1p2.md:14
+#: src/Chapter1/c1p2.md:13
 msgid "### Скачиваем дистрибутив"
 msgstr ""
 
-#: src/Chapter1/c1p2.md:16
+#: src/Chapter1/c1p2.md:15
 msgid ""
 "Тут все просто, думаю не стоит объяснять. Просто заходите на сайт выбранного "
 "дистрибутива, и скачиваете последнюю версию. Обычно скачивание прямое, но "
@@ -349,67 +378,74 @@ msgid ""
 "способом скачается быстрее. "
 msgstr ""
 
-#: src/Chapter1/c1p2.md:18
+#: src/Chapter1/c1p2.md:17
 msgid "> Ссылки на сайты основных дистрибутивов находятся в предыдущем параграфе"
 msgstr ""
 
-#: src/Chapter1/c1p2.md:20
+#: src/Chapter1/c1p2.md:19
 msgid "Скачали? Тогда переходим к следующему шагу!"
 msgstr ""
 
-#: src/Chapter1/c1p2.md:23
+#: src/Chapter1/c1p2.md:22
 msgid "### Записываем установщик на флэшку"
 msgstr ""
 
-#: src/Chapter1/c1p2.md:25
+#: src/Chapter1/c1p2.md:24
 msgid ""
 "Рассматривать метод с CD/DVD-ROM не буду, так как кто этой древностью сейчас "
 "пользуется?"
 msgstr ""
 
-#: src/Chapter1/c1p2.md:27
+#: src/Chapter1/c1p2.md:26
 msgid ""
 "Уточню, что рассматриваться будут способы записи на Windows, так как "
 "предполагается, что вы собираетесь поставить Linux второй системой/перейти "
 "на него для сборки прошивок и других полезных дел."
 msgstr ""
 
-#: src/Chapter1/c1p2.md:29
+#: src/Chapter1/c1p2.md:28
 msgid ""
 "Так, нам нужна утилита для записи. Подойдет Etcher или тот же Rufus, без "
 "разницы. Рассмотрим подробнее..."
 msgstr ""
 
-#: src/Chapter1/c1p2.md:32
-msgid "### Вариант с Etcher"
+#: src/Chapter1/c1p2.md:30
+msgid ""
+"1. [Etcher](#Вариант-с-etcher)\n"
+"2. [Rufus](#Вариант-с-rufus)\n"
+"3. [Ventoy](#Вариант-с-ventoy)"
 msgstr ""
 
 #: src/Chapter1/c1p2.md:34
+msgid "### Вариант с Etcher"
+msgstr ""
+
+#: src/Chapter1/c1p2.md:36
 msgid ""
 "Скачиваем утилиту с сайта https://www.balena.io/etcher/. Вставляем ненужную "
 "флэшку в компьютер. Ну или нужную, просто предварительно скопируйте все "
 "нужные вам данные с нее. Запускаем Etcher"
 msgstr ""
 
-#: src/Chapter1/c1p2.md:36
+#: src/Chapter1/c1p2.md:38
 msgid ""
 "<p align=\"center\">\n"
 "  <img src=\"../Chapter1/images/1.png\"/>\n"
 "</p>"
 msgstr ""
 
-#: src/Chapter1/c1p2.md:40
+#: src/Chapter1/c1p2.md:42
 msgid "Откроется данное окно. Как видно, тут все предельно просто:"
 msgstr ""
 
-#: src/Chapter1/c1p2.md:42
+#: src/Chapter1/c1p2.md:44
 msgid ""
 "1. Выбираем образ дистрибутива\n"
 "    2. Выбираем USB устройство\n"
 "    3. Нажимаем Flash"
 msgstr ""
 
-#: src/Chapter1/c1p2.md:46
+#: src/Chapter1/c1p2.md:48
 msgid ""
 "<p align=\"center\">\n"
 "  <img src=\"../Chapter1/images/2.png\"/>\n"
@@ -418,34 +454,34 @@ msgid ""
 "</p>"
 msgstr ""
 
-#: src/Chapter1/c1p2.md:53
+#: src/Chapter1/c1p2.md:55
 msgid "Все, загрузочная флэшка записана"
 msgstr ""
 
-#: src/Chapter1/c1p2.md:55
+#: src/Chapter1/c1p2.md:57
 msgid "### Вариант с Rufus"
 msgstr ""
 
-#: src/Chapter1/c1p2.md:57
+#: src/Chapter1/c1p2.md:59
 msgid "Тут все немного по-сложнее чем с Etcher, но тоже просто."
 msgstr ""
 
-#: src/Chapter1/c1p2.md:59
+#: src/Chapter1/c1p2.md:61
 msgid "Скачиваем утилиту с сайта https://rufus.ie/. Запускаем..."
 msgstr ""
 
-#: src/Chapter1/c1p2.md:61
+#: src/Chapter1/c1p2.md:63
 msgid ""
 "<p align=\"center\">\n"
 "  <img src=\"../Chapter1/images/5.png\"/>\n"
 "</p>"
 msgstr ""
 
-#: src/Chapter1/c1p2.md:65
+#: src/Chapter1/c1p2.md:67
 msgid "Откроется данное окно."
 msgstr ""
 
-#: src/Chapter1/c1p2.md:67
+#: src/Chapter1/c1p2.md:69
 msgid ""
 "1. Выбираем устройство\n"
 "\n"
@@ -478,19 +514,75 @@ msgid ""
 "6. Остается только ждать...\n"
 "   <p align=\"center\">\n"
 "      <img src=\"../Chapter1/images/9.png\"/>\n"
-"   </p>\n"
-"   "
+"   </p>"
 msgstr ""
 
-#: src/Chapter1/c1p2.md:96
+#: src/Chapter1/c1p2.md:97
+msgid "### Вариант с Ventoy"
+msgstr ""
+
+#: src/Chapter1/c1p2.md:99
+msgid ""
+"Ventoy - это инструмент с открытым исходным кодом для создания загрузочного "
+"USB-накопителя для файлов ISO/WIM/IMG/VHD(x)/EFI.\n"
+"С Ventoy не нужно форматировать диск снова и снова, достаточно скопировать "
+"файлы образов на USB-накопитель и загрузить его. Можно скопировать много "
+"файлов образов одновременно, и ventoy предложит меню загрузки для их выбора."
+msgstr ""
+
+#: src/Chapter1/c1p2.md:101
+msgid ""
+"<p align=\"center\">\n"
+"  <img src=\"../Chapter1/images/16.png\"/>\n"
+"  Скриншот Ventoy с меню выбора ОС\n"
+"</p>"
+msgstr ""
+
+#: src/Chapter1/c1p2.md:106
+msgid ""
+"Именно эта утилита является самой продвинутой среди двух ранее рассмотренных "
+"вариантов. Как было понятно с описания - вам следует всего лишь перекинуть "
+".iso образ диска на флешку и все. Никакого форматирования вашего 1ТБ диска, "
+"чтобы записать жалкие ~5гб образа, не прекрасно ли? Прекрасно."
+msgstr ""
+
+#: src/Chapter1/c1p2.md:108
+msgid "**Приступаем к установке!**"
+msgstr ""
+
+#: src/Chapter1/c1p2.md:110
+msgid ""
+"1. Заходим на GitHub проекта, в "
+"[Releases](https://github.com/ventoy/Ventoy/releases/) качаем последнюю "
+"сборку\n"
+"2. Распаковываем, запускаем\n"
+"3. Получаем на выходе простой интерфейс, где мы выбираем диск, на который "
+"будет установлен Ventoy"
+msgstr ""
+
+#: src/Chapter1/c1p2.md:113
+msgid ""
+"> **ВАЖНО!** Все данные с диска будут удалены/отформатированы. Не забудь-те "
+"забэкапить влажные файлы"
+msgstr ""
+
+#: src/Chapter1/c1p2.md:115
+msgid ""
+"4. Жмем кнопку Install... Profit\n"
+"5. В результате у нас появится раздел с названием Ventoy, на который можно "
+"простым движением переместить образ системы.\n"
+"6. Грузимся с этой флешки. "
+msgstr ""
+
+#: src/Chapter1/c1p2.md:119
 msgid "После того, как мы записали флэшку, самое время установить систему!"
 msgstr ""
 
-#: src/Chapter1/c1p2.md:98
+#: src/Chapter1/c1p2.md:121
 msgid "## Установка системы"
 msgstr ""
 
-#: src/Chapter1/c1p2.md:100
+#: src/Chapter1/c1p2.md:123
 msgid ""
 "К сожалению, раскрыть данный этап подробно я не могу ввиду технических "
 "возможностей. Но в интернете очень много гайдов, и ставить ту же Ubuntu не "
@@ -500,21 +592,21 @@ msgid ""
 "[Ubuntu](https://help.ubuntu.ru/wiki/ubuntu_install)"
 msgstr ""
 
-#: src/Chapter1/c1p2.md:102
+#: src/Chapter1/c1p2.md:125
 msgid ""
 "> Я буду очень надеяться, что мои \"коллеги\" дополнят этот раздел подробной "
 "инструкцией"
 msgstr ""
 
-#: src/Chapter1/c1p2.md:104
+#: src/Chapter1/c1p2.md:127
 msgid "### Настройка среды"
 msgstr ""
 
-#: src/Chapter1/c1p2.md:106
+#: src/Chapter1/c1p2.md:129
 msgid "### Установка необходимых пакетов"
 msgstr ""
 
-#: src/Chapter1/c1p2.md:108
+#: src/Chapter1/c1p2.md:131
 msgid ""
 "- **Debian-like:**\n"
 "\t```bash\n"
@@ -532,15 +624,15 @@ msgid ""
 "   ```"
 msgstr ""
 
-#: src/Chapter1/c1p2.md:120
+#: src/Chapter1/c1p2.md:143
 msgid "### Настройка git"
 msgstr ""
 
-#: src/Chapter1/c1p2.md:121
+#: src/Chapter1/c1p2.md:144
 msgid "Вписываем свой никнейм и почту на GitHub:"
 msgstr ""
 
-#: src/Chapter1/c1p2.md:123
+#: src/Chapter1/c1p2.md:146
 msgid ""
 "```bash\n"
 "git config --global user.name \"Your Name\"\n"
@@ -549,7 +641,7 @@ msgid ""
 msgstr ""
 
 #: src/Chapter1/c1p3.md:1
-msgid "# Параграф 3: качаем исходники прошивки"
+msgid "# Параграф 3: Скачиваем исходники прошивки"
 msgstr ""
 
 #: src/Chapter1/c1p3.md:3
@@ -578,7 +670,8 @@ msgid ""
 "Отлично, теперь требуется скачать исходники прошивки. Открываем "
 "github.com/LineageOS и офигеваем, какое большое там количество всего. И все "
 "это качать? Да, но не вручную, а с помощью утилиты repo. Открываем "
-"репозиторий android либо manifest (зависит от прошивки), обычно он закреплен."
+"репозиторий [android](https://github.com/LineageOS/android) либо manifest "
+"(зависит от прошивки), обычно он закреплен."
 msgstr ""
 
 #: src/Chapter1/c1p3.md:14
@@ -601,34 +694,38 @@ msgid ""
 msgstr ""
 
 #: src/Chapter1/c1p3.md:25
+msgid ""
+"> **Примечание.** Для экономии места на диске, можно использовать параметр "
+"--depth=1, который говорит не скачивать всю историю измнений.\n"
+"> ```bash\n"
+"> repo init --depth=1 -u git://github.com/LineageOS/android.git -b "
+"lineage-17.1\n"
+"> ```"
+msgstr ""
+
+#: src/Chapter1/c1p3.md:30
 msgid "Скачивание началось и ждем."
 msgstr ""
 
-#: src/Chapter1/c1p3.md:27
-msgid "Чтобы обновить исходники, введите просто в папке с исходниками"
-msgstr ""
-
-#: src/Chapter1/c1p3.md:29
+#: src/Chapter1/c1p3.md:32
 msgid ""
-"```bash\n"
-"repo sync\n"
-"```"
+"> **Примечание.** Чтобы обновить исходники, введите просто в папке с "
+"исходниками\n"
+"> ```bash\n"
+"> repo sync\n"
+"> ```"
 msgstr ""
 
-#: src/Chapter1/c1p3.md:33
+#: src/Chapter1/c1p3.md:37
 msgid ""
-"Если Вы хотите ограничить скорость закачивания, требуется ввести количество "
-"потоков."
+" > Если Вы хотите ограничить скорость закачивания, требуется ввести "
+"количество потоков.\n"
+"> ```bash\n"
+"> repo sync -j#\n"
+"> ```"
 msgstr ""
 
-#: src/Chapter1/c1p3.md:35
-msgid ""
-"```bash\n"
-"repo sync -j#\n"
-"```"
-msgstr ""
-
-#: src/Chapter1/c1p3.md:39
+#: src/Chapter1/c1p3.md:42
 msgid ""
 "Где # - количество потоков. Автор обычно вручную ставит 16 потоков для "
 "быстрого скачивания. Так же существуют самые разные агрументы для этих "
@@ -637,7 +734,7 @@ msgid ""
 "sync](https://git-repo.info/en/docs/multi-repos/git-repo-sync/)"
 msgstr ""
 
-#: src/Chapter1/c1p3.md:41
+#: src/Chapter1/c1p3.md:44
 msgid ""
 "Такой репозиторий, который мы открыли, обычно состоит из манифестов, которые "
 "представляют из себя xml файлы. Один файл может подключать другие файлы, тем "
@@ -648,21 +745,110 @@ msgid ""
 "Eleven."
 msgstr ""
 
-#: src/Chapter1/c1p3.md:43
+#: src/Chapter1/c1p3.md:46
 msgid ""
 "И в принципе на этом параграф заканчивается, единственное, что хотелось бы "
 "немного рассказать про локальные манифесты."
 msgstr ""
 
-#: src/Chapter1/c1p3.md:45
+#: src/Chapter1/c1p3.md:48
 msgid ""
 "Локальные манифесты это манифесты, которые были написаны вручную или "
 "сгенерированы автоматически системой сборки для скачивания некоторых "
 "специфичных исходников, таких как ядра, common деревья и других репозиториев."
 msgstr ""
 
+#: src/Chapter1/c1p3.md:50
+msgid ""
+"Они находятся в `.repo/local_manifests/`. Может будет вопрос, \"а зачем он "
+"нам?\". Все просто, не нужно вводить куча команд для скачивания нескольких "
+"репозиториев себе, а просто положить .xml файл, в котором описаны что, где, "
+"куда нужно качать. Посмотрим на примере устройства Lenovo Z5s aka jd2019"
+msgstr ""
+
+#: src/Chapter1/c1p3.md:52
+msgid ""
+"```xml\n"
+"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n"
+"<manifest>\n"
+"\n"
+"    <!-- Remotes -->\n"
+"  <remote name=\"gitlab_jd2019\" fetch=\"https://gitlab.com/lenovo-z5s\" />\n"
+"  <remote name=\"github_kernel\" fetch=\"https://github.com/jzinferno2\" />\n"
+"\n"
+"  <!-- DT -->\n"
+"  <project name=\"device_lenovo_jd2019\" path=\"device/lenovo/jd2019\" "
+"remote=\"gitlab_jd2019\" revision=\"thirteen\" />\n"
+"  <project name=\"device_lenovo_sdm710-common\" "
+"path=\"device/lenovo/sdm710-common\" remote=\"gitlab_jd2019\" "
+"revision=\"thirteen/stable\" />\n"
+"\n"
+"  <!-- VT -->\n"
+"  <project name=\"vendor_lenovo_jd2019\" path=\"vendor/lenovo/jd2019\" "
+"remote=\"gitlab_jd2019\" revision=\"twelve\" />\n"
+"  <project name=\"vendor_lenovo_sdm710\" "
+"path=\"vendor/lenovo/sdm710-common\" remote=\"gitlab_jd2019\" "
+"revision=\"thirteen\" />\n"
+"\n"
+"  <!-- KT -->\n"
+"  <project name=\"kernel_lenovo_sdm710\" path=\"kernel/lenovo/sdm710\" "
+"remote=\"github_kernel\" revision=\"thirteen\" />\n"
+"\n"
+"</manifest>\n"
+"```"
+msgstr ""
+
+#: src/Chapter1/c1p3.md:74
+msgid ""
+"Что мы тут видим? Обычную xml-структуру. Для сборки jd2019 нам требуется "
+"больше 3 репозиториев. Для начала определяем откуда качать. "
+msgstr ""
+
+#: src/Chapter1/c1p3.md:76
+msgid ""
+"Это так называемый `remote`. В нашем случае у нас два remote, ссылка на "
+"GitLab и GitHub.\n"
+"Они введут на организацию в GitLab и обычного пользователя на GitHub. "
+msgstr ""
+
+#: src/Chapter1/c1p3.md:79
+msgid "Дальше указываем что скачиваем."
+msgstr ""
+
+#: src/Chapter1/c1p3.md:80
+msgid ""
+"```\n"
+"<project name=\"device_lenovo_jd2019\" path=\"device/lenovo/jd2019\" "
+"remote=\"gitlab_jd2019\" revision=\"thirteen\" />\n"
+"```"
+msgstr ""
+
+#: src/Chapter1/c1p3.md:84
+msgid "Рассмотрим подробнее,"
+msgstr ""
+
+#: src/Chapter1/c1p3.md:86
+msgid ""
+"* **name** - Название репозитория в GitHub/GitLab\n"
+"* **path** - Путь, куда необходимо скачать на диск\n"
+"* **remote** - Откуда качать репозиторий\n"
+"* **revision** - Ветка в репозитории, можно не указывать (будет качать ветку "
+"по-умолчанию)"
+msgstr ""
+
+#: src/Chapter1/c1p3.md:91
+msgid "В итоге сохранил этот .xml файл как `.repo/local_manifests/jd2019.xml`"
+msgstr ""
+
+#: src/Chapter1/c1p3.md:93
+msgid ""
+"Как использовать этот файл? Просто пишем `repo sync` и он будет скачивать "
+"наши репозитори вместе с исходниками прошивки и конечно же будет обновить "
+"исходники."
+msgstr ""
+
 #: src/Chapter1/c1p4.md:3
-msgid "# Параграф 4: исходники устройства"
+msgid "# Параграф 4: Исходники устройства"
 msgstr ""
 
 #: src/Chapter1/c1p4.md:5
@@ -674,33 +860,39 @@ msgid ""
 msgstr ""
 
 #: src/Chapter1/c1p4.md:7
+msgid ""
+"> **Примечание.** В [предыдушем параграфе](../Chapter1/c1p3.md) мы немного "
+"затронули про локальный манифест"
+msgstr ""
+
+#: src/Chapter1/c1p4.md:10
 msgid "### Устройство официально поддерживается"
 msgstr ""
 
-#: src/Chapter1/c1p4.md:9
+#: src/Chapter1/c1p4.md:12
 msgid ""
 "Тут самое банальное. Надо только скачать проприетарные библиотеки из "
 "репозитория github.com/TheMuppets, где библиотеки раскиданы по "
-"производителям. Скажем, у нас смартфон производства Leeco. В поиске вбиваем "
+"производителям. Скажем, у нас смартфон производства LeEco. В поиске вбиваем "
 "leeco. Открываем репозиторий, копируем ссылку. Очевидно она будет выглядить "
 "так:"
 msgstr ""
 
-#: src/Chapter1/c1p4.md:11
+#: src/Chapter1/c1p4.md:14
 msgid ""
 "```\n"
 "https://github.com/TheMuppets/proprietary_vendor_leeco\n"
 "```"
 msgstr ""
 
-#: src/Chapter1/c1p4.md:15
+#: src/Chapter1/c1p4.md:18
 msgid ""
 "Так как мы собираем Lineage OS 17.1, то нам нужно скачать ветку "
 "lineage-17.1. Что ж, давайте сделаем это! Вводим следующую команду в корне "
 "исходников прошивки:"
 msgstr ""
 
-#: src/Chapter1/c1p4.md:17
+#: src/Chapter1/c1p4.md:20
 msgid ""
 "```bash\n"
 "git clone https://github.com/TheMuppets/proprietary_vendor_leeco -b "
@@ -708,73 +900,71 @@ msgid ""
 "```"
 msgstr ""
 
-#: src/Chapter1/c1p4.md:21
-msgid "Давайте разберемся, что мы ввели:"
-msgstr ""
-
-#: src/Chapter1/c1p4.md:23
+#: src/Chapter1/c1p4.md:24
 msgid ""
-"- `git clone` - команда на скачивание репозитория\n"
-"\n"
-"- `https://github.com/TheMuppets/proprietary_vendor_leeco` - ссылка на "
+"> Давайте разберемся, что мы ввели:\n"
+">\n"
+"> - `git clone` - команда на скачивание репозитория\n"
+"> \n"
+"> - `https://github.com/TheMuppets/proprietary_vendor_leeco` - ссылка на "
 "репозиторий\n"
-"- `-b lineage-17.1` - указываем ветку, которую требуется скачать\n"
-"- `vendor/leeco` - путь, куда требуется скачать репозиторий"
+"> - `-b lineage-17.1` - указываем ветку, которую требуется скачать\n"
+"> - `vendor/leeco` - путь, куда требуется скачать репозиторий"
 msgstr ""
 
-#: src/Chapter1/c1p4.md:29
+#: src/Chapter1/c1p4.md:32
 msgid ""
 "Внимание, если Ваше устройство производства Xiaomi, то скачать проприетарные "
 "библиотеки можно из gitlab.com/the-muppets."
 msgstr ""
 
-#: src/Chapter1/c1p4.md:31
+#: src/Chapter1/c1p4.md:34
 msgid "### Устройство официально не поддерживается"
 msgstr ""
 
-#: src/Chapter1/c1p4.md:33
+#: src/Chapter1/c1p4.md:36
 msgid ""
 "И так, самая первая прошивка, которую собирают на новое устройство, это "
 "Lineage OS. Во всяком случае, обычно. Будем полагаться на удачу. Так что "
 "открываем github.com и в поиск вбиваем"
 msgstr ""
 
-#: src/Chapter1/c1p4.md:35
+#: src/Chapter1/c1p4.md:38
 msgid ""
 "```\n"
 "device производитель кодовое-имя\n"
 "```"
 msgstr ""
 
-#: src/Chapter1/c1p4.md:39
+#: src/Chapter1/c1p4.md:42
 msgid ""
 "К примеру, давайте найдем исходники Xiaomi Redmi Note 4X - mido. Вводим "
 "`device_xiaomi_mido`, видим n-ое количество репозиториев:"
 msgstr ""
 
-#: src/Chapter1/c1p4.md:41
+#: src/Chapter1/c1p4.md:44
 msgid ""
 "<p align=\"center\">\n"
 "    <img src=\"../Chapter1/images/10.png\"/>\n"
 "</p>"
 msgstr ""
 
-#: src/Chapter1/c1p4.md:47
+#: src/Chapter1/c1p4.md:49
 msgid ""
 "Самое верхнее - дерево от Lineage OS, однако там дерево максимум для Lineage "
 "OS 16.0. Не подходит. Смотрим дальше. Есть дерево от Zeelog'а, у него есть "
 "дерево для Lineage OS 17.1. Отлично! Берем. Скачиваем по той же схеме, что и "
-"библиотеки в примере с устройством Leeco."
-msgstr ""
-
-#: src/Chapter1/c1p4.md:49
-msgid ""
-"> **Примечание**. Ветка lineage-17.1-4.9 предназначена для сборки Lineage OS "
-"17.1 с ядром 4.9. Ветка lineage-17.1 предназначена для сборки Lineage OS "
-"17.1 с ядром 3.18."
+"библиотеки в примере с устройством LeEco."
 msgstr ""
 
 #: src/Chapter1/c1p4.md:51
+msgid ""
+"> **Примечание**. Ветка lineage-17.1-4.9 предназначена для сборки Lineage OS "
+"17.1 с ядром 4.9. Ветка lineage-17.1 предназначена для сборки Lineage OS "
+"17.1 с ядром 3.18. (Это в случае с mido!)"
+msgstr ""
+
+#: src/Chapter1/c1p4.md:53
 msgid ""
 "Так-с, specific дерево скачали. По идее, если есть lineage.dependencies, то "
 "система при инициализации должна подтянуть необходимые исходники. Но так как "
@@ -782,14 +972,19 @@ msgid ""
 "учимся, поэтому открываем этот файл и смотрим:"
 msgstr ""
 
-#: src/Chapter1/c1p4.md:53
+#: src/Chapter1/c1p4.md:55
 msgid ""
-"<p align=\"center\">\n"
-"    <img src=\"../Chapter1/images/11.png\"/>\n"
-"</p>"
+"```\n"
+"[\n"
+"  {\n"
+"    \"repository\": \"android_kernel_xiaomi_mido\",\n"
+"    \"target_path\": \"kernel/xiaomi/mido\"\n"
+"  }\n"
+"]\n"
+"```"
 msgstr ""
 
-#: src/Chapter1/c1p4.md:59
+#: src/Chapter1/c1p4.md:64
 msgid ""
 "В случае mido здесь мы видим только ядро. Искать его не надо, открываем "
 "профиль Zeelog'а и в поиск вбиваем `android_kernel_xiaomi_mido`. Уже по "
@@ -800,7 +995,7 @@ msgid ""
 "излишни. "
 msgstr ""
 
-#: src/Chapter1/c1p4.md:61
+#: src/Chapter1/c1p4.md:66
 msgid ""
 "Теперь надо скачать проприетарные библиотеки. К сожалению, в "
 "`lineage.dependencies` они не прописаны. Открываем профиль Zeelog'а снова и "
@@ -812,7 +1007,7 @@ msgid ""
 "тоже клонируем в соответствующие папки."
 msgstr ""
 
-#: src/Chapter1/c1p4.md:63
+#: src/Chapter1/c1p4.md:68
 msgid ""
 "Вообще, если есть возможность, то лучше поспрашивать у других сборщиков под "
 "ВАШЕ устройство что и откуда скачать для сборки прошивки. В некоторых "
@@ -820,7 +1015,7 @@ msgid ""
 "Zenfone 2 Laser ZE500KL (Z00ED) требуется модифицировать HAL'ы."
 msgstr ""
 
-#: src/Chapter1/c1p4.md:65
+#: src/Chapter1/c1p4.md:70
 msgid ""
 "Исходники готовы к сборке под устройство. Приступаем к самой долгой и нудной "
 "части - сборке прошивки."
@@ -875,13 +1070,22 @@ msgid ""
 "```"
 msgstr ""
 
-#: src/Chapter1/c1p5.md:23
+#: src/Chapter1/c1p5.md:22
+msgid ""
+"> **Примечание!** Можно ввести команду `lunch` без каких-то либо аргументов "
+"и он выведет вам списко всех устройств, которых нашел. Там может быть под "
+"эмулятор Android для Android Studio, официальные устройства и под ваше "
+"устройство, если вы правильно все сделали, но рекомендую делать как выше, "
+"меньше проблем и быстрее"
+msgstr ""
+
+#: src/Chapter1/c1p5.md:24
 msgid ""
 "Где `codename` - кодовое название устройства. Не боимся, сидим и ждем, когда "
 "сделает все, что требуется системе сборки."
 msgstr ""
 
-#: src/Chapter1/c1p5.md:25
+#: src/Chapter1/c1p5.md:26
 msgid ""
 "<p align=\"center\">\n"
 "    <img src=\"../Chapter1/images/12.png\"/>\n"
@@ -1964,7 +2168,226 @@ msgid ""
 msgstr ""
 
 #: src/Chapter4/c4p5.md:1
-msgid "# Параграф 5 Обновление и сборка ядра"
+msgid "# Параграф 5: Обновление и сборка ядра"
+msgstr ""
+
+#: src/Chapter4/c4p5.md:3
+msgid ""
+"Для обновления ядра, вам нужен хотя бы средний уровень знаний того, как же "
+"работает ядро (см. [что такое "
+"ядро](https://github.com/Roker2/BookAboutBuilding/blob/master/%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%203%20%D0%B8%D0%B7%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B8%D1%81%D1%85%D0%BE%D0%B4%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%20%D1%83%D1%81%D1%82%D1%80%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%B0/%D0%9F%D0%B0%D1%80%D0%B0%D0%B3%D1%80%D0%B0%D1%84%204%20%D0%A7%D1%82%D0%BE%20%D1%82%D0%B0%D0%BA%D0%BE%D0%B5%20%D1%8F%D0%B4%D1%80%D0%BE.md#%D0%BF%D0%B0%D1%80%D0%B0%D0%B3%D1%80%D0%B0%D1%84-4-%D1%87%D1%82%D0%BE-%D1%82%D0%B0%D0%BA%D0%BE%D0%B5-%D1%8F%D0%B4%D1%80%D0%BE)) "
+"и в целом Android, а так же умение пользоваться git (см. [ходовые команды "
+"git](https://github.com/Roker2/BookAboutBuilding/blob/master/%D0%93%D0%BB%D0%B0%D0%B2%D0%B0%202%20git%2C%20%D1%81%20%D1%87%D0%B5%D0%BC%20%D0%B5%D0%B3%D0%BE%20%D0%B5%D0%B4%D1%8F%D1%82%20%D0%B8%20%D0%B7%D0%B0%D1%87%D0%B5%D0%BC%20%D0%BE%D0%BD/%D0%9F%D0%B0%D1%80%D0%B0%D0%B3%D1%80%D0%B0%D1%84%202%20%D0%A5%D0%BE%D0%B4%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B%20git'%D0%B0.md#%D0%BF%D0%B0%D1%80%D0%B0%D0%B3%D1%80%D0%B0%D1%84-2-%D1%85%D0%BE%D0%B4%D0%BE%D0%B2%D1%8B%D0%B5-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B-git%D0%B0))."
+msgstr ""
+
+#: src/Chapter4/c4p5.md:5
+msgid "## Обновление"
+msgstr ""
+
+#: src/Chapter4/c4p5.md:7
+msgid "### Подготовка"
+msgstr ""
+
+#: src/Chapter4/c4p5.md:9
+msgid ""
+"Давайте, для начала узнаем какие стабильные версии ядра Android на данный "
+"момент (2022 г.) активно обновляются. Вот список для наглядности: *4.9, "
+"4.14, 4.19, 5.4, 5.10, 5.15*. Должен сразу предупредить, что обновить ядро, "
+"предположим, с 4.9 до 4.19 без перебазирования невозможно, более того, "
+"обычно производитель делает специфические драйвера устройства только для "
+"одной версии и не обновляет дальше, а так же само ядро может не поддерживать "
+"ваш чипсет и без углублённых знаний в ядре обновить драйвера у вас не "
+"получится. Поэтому, зачастую, маинтейнеры обновляют **sublevel** ядра, это "
+"мы и будем делать ниже. Чтобы узнать его, заходим в исходник ядра, которое "
+"хотим обновить, в корне находим и открываем файлик **Makefile**, в самом "
+"верху (обычно) видим такую картину:"
+msgstr ""
+
+#: src/Chapter4/c4p5.md:11
+msgid ""
+"<p align=\"center\">\n"
+"  <img src=\"../Chapter4/images/1.png\"/>\n"
+"</p>"
+msgstr ""
+
+#: src/Chapter4/c4p5.md:15
+msgid ""
+"> *Либо просто заходим на своём смартфоне в Настройки > О Телефоне (только "
+"если на смартфоне установлено то же ядро, исходники которого вы собираететсь "
+"обновить*)"
+msgstr ""
+
+#: src/Chapter4/c4p5.md:17
+msgid ""
+"Узнали. После этого нужно найти репозиторий общего (common) ядра, с которого "
+"и будем обновлять, обычно используют "
+"https://android.googlesource.com/kernel/common/, но можно и другие зеркала. "
+"Например https://git.codelinaro.org/clo/la/kernel/msm (только для Qualcomm)."
+msgstr ""
+
+#: src/Chapter4/c4p5.md:19
+msgid "Смотрим в список бранчей и выбираем со своей версией ядра:"
+msgstr ""
+
+#: src/Chapter4/c4p5.md:21
+msgid ""
+"<p align=\"center\">\n"
+"  <img src=\"../Chapter4/images/2.png\"/>\n"
+"</p>"
+msgstr ""
+
+#: src/Chapter4/c4p5.md:25
+msgid ""
+"После чего смотрим на название последнего коммита, должно быть что-то по "
+"типу `Merge <версия ядра>`, если sublevel выше, чем в ваших в исходниках, "
+"тогда можно продолжать. Если же нет, то поздравляю, у вас последняя версия"
+msgstr ""
+
+#: src/Chapter4/c4p5.md:29
+msgid "### Скачиваем репозитории"
+msgstr ""
+
+#: src/Chapter4/c4p5.md:31
+msgid ""
+"Для примера, я буду использовать "
+"[4.9.268](https://github.com/PixelExperience-Devices/kernel_lenovo_sdm710/tree/81bad83b39681cc137d99a1b613839032dab9184) "
+"ядро от Lenovo Z5s (jd2019) и обновлю его до "
+"[4.9.319](https://github.com/PixelExperience-Devices/kernel_lenovo_sdm710/tree/76e4fbb527d37378bac0a982c3df9551f17dbfe7). "
+"Также, для удобства, рекомендую использовать [GitHub  "
+"Desktop](https://github.com/shiftkey/desktop), хоть в нём и не присутствует "
+"весь функционал."
+msgstr ""
+
+#: src/Chapter4/c4p5.md:33
+msgid ""
+"1. Для начала нам нужно склонировать исходники своего ядра (описывать как "
+"это делать я думаю не нужно), после добавляем репозиторий в GitHub Desktop "
+"(опять же, это не обязательно, все действия можно выполнить только через "
+"git).\n"
+"\n"
+"2. Затем, открываем терминал в папке с исходниками вашего ядра и добавляем "
+"наш удаленный репозиторий общего ядра командой:\n"
+"   ```bash\n"
+"   git remote add common url \n"
+"   ```\n"
+"\n"
+"   `common` - название, можете использовать любое другое\n"
+"   `url` - ссылка на репозиторий\n"
+"\n"
+"3. Теперь фетчим добавленный репозиторий:\n"
+"   ```bash\n"
+"   git fetch common\n"
+"   ```\n"
+"   > *Если вам лень или не позволяет интернет скачать весь репозиторий, "
+"можете в конце команды добавить название бранча, тогда скачивать будет "
+"только его.*"
+msgstr ""
+
+#: src/Chapter4/c4p5.md:49
+msgid "### Мержим изменения"
+msgstr ""
+
+#: src/Chapter4/c4p5.md:51
+msgid ""
+"Обновлять ядро лучше всего по одному саблевелу - так больший шанс понять в "
+"какой версии и коммите проблема, если у вас будут ошибки при сборке, либо в "
+"самой системе, я же рисковый и делал сразу по пять (о чём потом пожалел)."
+msgstr ""
+
+#: src/Chapter4/c4p5.md:53
+msgid ""
+"1. Находим нужную нам версию с помощью поиска в разделе тэгов:\n"
+"   <p align=\"center\">\n"
+"     <img src=\"../Chapter4/images/4.png\"/>\n"
+"   </p>\n"
+"\n"
+"2. Копируем SHA и мержим этот коммит в нашем бранче:\n"
+"   ```bash\n"
+"   git merge sha\n"
+"   ```\n"
+"   > Если никаких конфликтов нет, то можете замержить ещё пару. Но опять же, "
+"вы не будете знать на какой версии у вас всё поломалось, так что лучше "
+"мержить по одному-два и собирать, если ядро собралось и система запустилась, "
+"то переходим к следующим саблевелам."
+msgstr ""
+
+#: src/Chapter4/c4p5.md:64
+msgid "### Фиксим конфликты"
+msgstr ""
+
+#: src/Chapter4/c4p5.md:66
+msgid ""
+"Здесь всё довольно муторно. Лично я делаю по такой схеме: если появляются "
+"конфликты, то открываю GitHub Desktop, с помощью него намного легче найти "
+"их, т.к. они все сразу отображаются вместе с поломанными строками. Если "
+"конфликт простой, то фикшу вручную, если же ничего не понятно, то захожу в "
+"common репо, открываю просмотр файлов во временной точке нужного тэга и ищу "
+"этот конфликтный файл там, открываю историю коммитов для него и смотрю как "
+"делали там и просто повторяю все изменения в свой файл. Конфликтных файлов "
+"может быть очень много, так что наберитесь терпения и не спешите, т.к. одна "
+"лишняя строчка или ошибка в тексте и ядро у вас не соберётся, либо не "
+"запустится."
+msgstr ""
+
+#: src/Chapter4/c4p5.md:70
+msgid "## Сборка ядра"
+msgstr ""
+
+#: src/Chapter4/c4p5.md:73
+msgid "### Из исходников прошивки "
+msgstr ""
+
+#: src/Chapter4/c4p5.md:75
+msgid ""
+"Этот способ для тех, кто уже знает как собирать прошивки и т.п. Проходим по "
+"обычному сценарию подготовки к сборке прошивки, только вместо команды "
+"запуска сборки прошивки (`mka bacon`, `make bacon` и др.), пишем `mka "
+"bootimage`."
+msgstr ""
+
+#: src/Chapter4/c4p5.md:77
+msgid "### Из папки ядра"
+msgstr ""
+
+#: src/Chapter4/c4p5.md:79
+msgid ""
+"1. Скачайте исходный код ядра Android и перейдите в папку с ним с помощью "
+"команды:\n"
+"\n"
+"   ```bash\n"
+"   git clone <url> kernel\n"
+"   ```\n"
+"   ```bash\n"
+"   cd kernel\n"
+"   ```\n"
+"\n"
+"2. Убедитесь, что у вас установлены необходимые инструменты для сборки ядра, "
+"такие как компилятор GCC/Clang, библиотека make, инструменты для работы с "
+"архивами (tar, gzip и т.д.) и другие.\n"
+"\n"
+"\n"
+"3. Выберите конфигурацию ядра, которую хотите собрать:\n"
+"   ```bash\n"
+"   make defconfig\n"
+"   ```\n"
+"   > Эта команда создаст файл конфигурации ядра с набором опций по "
+"умолчанию. Конечно же, выбираете свой defconfig\n"
+"   ```bash\n"
+"   make menuconfig\n"
+"   ```\n"
+"   > Эта команда откроет интерактивное меню, где вы сможете выбрать нужные "
+"опции ядра с помощью стрелочек.\n"
+"\n"
+"4. Запустите сборку ядра с помощью команды:\n"
+"   ```bash\n"
+"   make -jN\n"
+"   ```\n"
+"   > Где N - это количество ядер вашего процессора. Это позволит ускорить "
+"сборку, так как она будет выполняться параллельно на разных ядрах.\n"
+"\n"
+"5. После успешной сборки ядро будет доступно в каталоге "
+"`arch/architecture/boot/` (где architecture - это архитектура вашего "
+"устройства, например, x86 или arm)."
 msgstr ""
 
 #: src/Chapter5/c5p1.md:1
@@ -2132,6 +2555,7 @@ msgid ""
 "> <p align=\"center\">\n"
 ">   <img src=\"../Chapter5/images/3.png\"/>\n"
 "> </p>\n"
+">\n"
 "> 5) Копируем в терминал и нажимаем Enter\n"
 ">\n"
 "> 6) Возвращаемся в корень исходников:\n"
@@ -2172,21 +2596,21 @@ msgid ""
 "[Референс](https://gist.github.com/verNANDo57/d76bb6e6e4b887101cf5a1cf64c66cef)"
 msgstr ""
 
-#: src/Chapter5/c5p1.md:151
-#: src/Chapter5/c5p1.md:151
+#: src/Chapter5/c5p1.md:152
+#: src/Chapter5/c5p1.md:152
 msgid "### UnicodeDecodeError: 'ascii' codec can't decode byte 0xd0"
 msgstr ""
 
-#: src/Chapter5/c5p1.md:153
-#: src/Chapter5/c5p1.md:153
+#: src/Chapter5/c5p1.md:154
+#: src/Chapter5/c5p1.md:154
 msgid ""
 "<p align=\"center\">\n"
 "  <img src=\"../Chapter5/images/1.png\"/>\n"
 "</p>"
 msgstr ""
 
-#: src/Chapter5/c5p1.md:157
-#: src/Chapter5/c5p1.md:157
+#: src/Chapter5/c5p1.md:158
+#: src/Chapter5/c5p1.md:158
 msgid ""
 "> Фикс:\n"
 ">\n"
