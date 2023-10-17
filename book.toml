@@ -26,3 +26,5 @@ extra-watch-dirs = ["po"]
 
 [preprocessor.gettext]
 after = ["links"]
+
+[preprocessor.external-links]

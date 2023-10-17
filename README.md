@@ -29,7 +29,7 @@ Read [`TRANSLATIONS.md`](TRANSLATIONS.md) and make a translation according to th
 1. <b>🦀 Установка</b>
 
 	```
-	cargo install mdbook mdbook-i18n-helpers mdbook-epub
+	cargo install mdbook mdbook-i18n-helpers mdbook-epub mdbook-external-links
 	```
 2. <b>🔨 Сборка</b><br>
 В директории book/ сгенерируются HTML страницы, которые можно захостить через nginx или с помощью GitHub Actions.
