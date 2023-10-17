@@ -18,3 +18,7 @@ runs:
     - name: Install mdbook-epub
       run: cargo install mdbook-epub --locked --version 0.4.34
       shell: bash
+
+    - name: Install mdbook-external-links
+      run: cargo install mdbook-external-links --locked --version 0.1.1
+      shell: bash
