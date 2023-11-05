@@ -65,7 +65,7 @@ jobs:
       - name: Add book cover
         run: |
           mv book/epub/About\ Android\ Building.epub book/epub/Original\ About\ Android\ Building.epub
-          ebook-convert book/epub/Original\ About\ Android\ Building.epub book/epub/About\ Android\ Building.epub --cover cover/cover.png
+          ebook-convert book/epub/Original\ About\ Android\ Building.epub book/epub/About\ Android\ Building.epub --cover src/images/cover.png
           rm book/epub/Original\ About\ Android\ Building.epub
 
       - name: Upload artifact
