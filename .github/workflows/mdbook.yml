@@ -39,6 +39,9 @@ jobs:
       - name: Install mdbook
         uses: ./.github/workflows/install-mdbook
 
+      - name: Install calibre
+        uses: ./.github/workflows/install-calibre
+
       - name: Build in Russian
         run: |
           mdbook build -d book
