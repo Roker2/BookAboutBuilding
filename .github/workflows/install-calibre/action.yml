@@ -1,0 +1,9 @@
+name: Install calibre
+
+description: Install calibre for modifying book
+
+runs:
+  using: composite
+  steps:
+    - name: Install calibre
+      run: sudo apt install calibre
