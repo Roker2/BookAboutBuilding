@@ -1,10 +1,17 @@
 import { defineConfig } from 'vitepress'
+import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "About Android Building",
   description: "Android Build from Source: A Comprehensive Guide",
   lang: 'ru',
+
+  markdown: {
+    config(md) {
+      md.use(tabsMarkdownPlugin)
+    }
+  },
 
   locales: {
     root: {
@@ -118,7 +125,7 @@ export default defineConfig({
         items: [
           { text: 'Введение', link: '/Chapter3/c3p0' },
           { text: 'Параграф 1: Что есть что и для чего', link: '/Chapter3/c3p1' },
-          { text: 'Параграф 2: Что такое дерево и сколько их должно быть', link: '/Chapter2/c3p2' },
+          { text: 'Параграф 2: Что такое дерево и сколько их должно быть', link: '/Chapter3/c3p2' },
           { text: 'Параграф 3: Что такое vendor и почему он имеет чужие библиотеки', link: '/Chapter3/c3p3' },
           { text: 'Параграф 4: Что такое Ядро', link: '/Chapter3/c3p4' },
           { text: 'Параграф 5: Адаптация исходников устройства', link: '/Chapter3/c3p5' },
