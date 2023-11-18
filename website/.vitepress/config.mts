@@ -13,6 +13,8 @@ export default defineConfig({
     }
   },
 
+  base: '/ViteAboutAndroidBuilding/',
+
   locales: {
     root: {
       label: 'Русский',
