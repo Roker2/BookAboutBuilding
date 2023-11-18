@@ -48,7 +48,7 @@ export default defineConfig({
 
 
     editLink: {
-      pattern: 'https://github.com/CakesTwix/ViteAboutBuilding/edit/main/website/:path',
+      pattern: 'https://github.com/CakesTwix/ViteAboutAndroidBuilding/edit/master/website/:path',
       text: 'Предложить изменения для данной страницы',
     },
 
@@ -134,6 +134,7 @@ export default defineConfig({
       {
         text: 'Глава 4: Обновление исходников самостоятельно',
         items: [
+          { text: 'Введение', link: '/Chapter4/c4p0' },
           { text: 'Параграф 1: Дампы, vendor, proprietary-files.txt и обновление библиотек', link: '/Chapter4/c4p1' },
           { text: 'Параграф 5: Обновление и сборка ядра', link: '/Chapter4/c4p5' },
         ]
@@ -159,7 +160,6 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/CakesTwix/ViteAboutBuilding' },
-      { icon: 'mastodon', link: 'https://pl.m0e.space/CakesTwix' }
     ]
   }
 })
