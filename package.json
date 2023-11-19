@@ -5,7 +5,11 @@
     "docs:preview": "vitepress preview website"
   },
   "devDependencies": {
+    "sass": "^1.69.5",
     "vitepress": "^1.0.0-rc.27",
     "vitepress-plugin-tabs": "^0.4.1"
+  },
+  "dependencies": {
+    "vitepress-plugin-image-viewer": "^1.1.2"
   }
 }
