@@ -6,6 +6,7 @@ export default defineConfig({
   title: "About Android Building",
   description: "Android Build from Source: A Comprehensive Guide",
   lang: 'ru',
+  head: [['link', { rel: 'icon', href: '/ViteAboutAndroidBuilding/Android.png' }]],
 
   markdown: {
     config(md) {
