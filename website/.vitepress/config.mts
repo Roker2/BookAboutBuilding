@@ -37,14 +37,14 @@ export default defineConfig({
     nav: [
       { text: 'Главная', link: '/' },
       { text: 'Приступить к изучению', link: '/Chapter1/c1p1' },
-      {
+      /*{
         text: 'Dropdown Menu',
         items: [
           { text: 'Item A', link: '/item-1' },
           { text: 'Item B', link: '/item-2' },
           { text: 'Item C', link: '/item-3' }
         ]
-      }
+      }*/
     ],
 
 
@@ -161,7 +161,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/CakesTwix/ViteAboutBuilding' },
+      { icon: 'github', link: 'https://github.com/CakesTwix/ViteAboutAndroidBuilding' },
     ]
   }
 })
