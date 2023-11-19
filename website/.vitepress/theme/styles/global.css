@@ -1,0 +1,12 @@
+:root {
+  --vp-border-radius: 20px;
+
+  main img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+    margin-bottom: 24px;
+		border-radius: var(--vp-border-radius);
+		box-shadow: 2px 2px 8px 4px var(--vp-c-bg-alt);
+	}
+}
