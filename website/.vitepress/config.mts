@@ -1,12 +1,44 @@
 import { defineConfig } from 'vitepress'
 import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
 
+import { ruConfig } from './locales/ru'
+import { uaConfig } from './locales/ua'
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  lastUpdated: true,
+  outDir: './dist',
+  srcExclude: [],
+  scrollOffset: 'header',
+  cleanUrls: true,
+
   title: "About Android Building",
   description: "Android Build from Source: A Comprehensive Guide",
-  lang: 'ru',
-  head: [['link', { rel: 'icon', href: '/ViteAboutAndroidBuilding/Android.png' }]],
+
+  head: [
+    [
+      'link', 
+      { 
+        rel: 'icon',
+        href: '/Android.png' 
+      }
+    ],
+    [
+      'meta',
+      {
+        name: 'viewport',
+        content:
+          'width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,viewport-fit=cover',
+      },
+    ],
+    [
+      'meta',
+      {
+        name: 'apple-mobile-web-app-status-bar-style',
+        content: 'lack-translucent',
+      },
+    ],
+  ],
 
   markdown: {
     config(md) {
@@ -14,20 +46,7 @@ export default defineConfig({
     }
   },
 
-  base: '/ViteAboutAndroidBuilding/',
-
-  locales: {
-    root: {
-      label: 'Русский',
-      lang: 'ru'
-    },
-    /*
-    ua: {
-      label: 'Українська',
-      lang: 'ua'
-    },
-    */
-  },
+  base: '/',
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -58,31 +77,51 @@ export default defineConfig({
     search: {
       provider: 'local',
       options: {
+        translations: {
+          button: {
+            buttonText: 'Поиск',
+            buttonAriaLabel: 'Поиск'
+          },
+          modal: {
+            displayDetails: 'Отобразить подробный список',
+            noResultsText: 'Ничего не нашли',
+            resetButtonTitle: 'Сбросить поиск',
+            footer: {
+              selectText: 'для выбора',
+              selectKeyAriaLabel: 'enter',
+              navigateText: 'для навигации',
+              navigateUpKeyAriaLabel: 'стрелка вверх',
+              navigateDownKeyAriaLabel: 'стрелка вниз',
+              closeText: 'закрыть',
+              closeKeyAriaLabel: 'escape',
+            },
+          },
+        },
         locales: {
-          root: {
+          uk: {
             translations: {
               button: {
-                buttonText: 'Поиск',
-                buttonAriaLabel: 'Поиск'
+                buttonText: 'Пошук',
+                buttonAriaLabel: 'Пошук'
               },
               modal: {
-                displayDetails: 'Отобразить подробный список',
-                noResultsText: 'Ничего не нашли',
-                resetButtonTitle: 'Сбросить поиск',
+                displayDetails: 'Відобразити детальний список',
+                noResultsText: 'Нічого не знайшли',
+                resetButtonTitle: 'Скинути пошук',
                 footer: {
-                  selectText: 'для выбора',
+                  selectText: 'для вибору',
                   selectKeyAriaLabel: 'enter',
-                  navigateText: 'для навигации',
-                  navigateUpKeyAriaLabel: 'стрелка вверх',
-                  navigateDownKeyAriaLabel: 'стрелка вниз',
-                  closeText: 'закрыть',
+                  navigateText: 'для навігації',
+                  navigateUpKeyAriaLabel: 'стрілка вгору',
+                  navigateDownKeyAriaLabel: 'стрілка вниз',
+                  closeText: 'закрити',
                   closeKeyAriaLabel: 'escape',
-                }
-              }
-            }
-          }
-        }
-      }
+                },
+              },
+            },
+          },
+        },
+      },
     },
 
     outline: {
@@ -163,7 +202,22 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/CakesTwix/ViteAboutAndroidBuilding' },
-    ]
-  }
+    ],
+  },
+
+  locales: {
+    root: {
+      label: 'Русский',
+      lang: 'ru',
+      link: '/',
+      ...ruConfig,
+    },
+    ua: {
+      label: 'Українська',
+      lang: 'ua',
+      link: '/ua/',
+      ...uaConfig,
+    }
+  },
 })
 
