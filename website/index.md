@@ -80,6 +80,8 @@ import {
   VPTeamMembers
 } from 'vitepress/theme'
 
+import { telegram2 } from './icons'
+
 const members = [
   {
     avatar: 'https://www.github.com/Roker2.png',
@@ -95,7 +97,13 @@ const members = [
     title: 'Создатель сайта',
     links: [
       { icon: 'github', link: 'https://github.com/CakesTwix' },
-      { icon: 'mastodon', link: 'https://pl.m0e.space/CakesTwix' }
+      { icon: 'mastodon', link: 'https://pl.m0e.space/CakesTwix' },
+      {
+        icon: {
+          svg: telegram2,
+        },
+        link: 'https://t.me/',
+      }
     ]
   },
   {
@@ -121,6 +129,12 @@ const members = [
     title: 'Писатель',
     links: [
       { icon: 'github', link: 'https://github.com/Ultra119' },
+      {
+        icon: {
+          svg: telegram2,
+        },
+        link: 'https://t.me/Ultra119',
+      }
     ]
   },
   {
