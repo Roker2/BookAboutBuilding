@@ -47,7 +47,7 @@ export default defineConfig({
     }
   },
 
-  base: '/',
+  base: '/ViteAboutAndroidBuilding',
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
