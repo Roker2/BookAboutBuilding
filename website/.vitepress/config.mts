@@ -98,30 +98,6 @@ export default defineConfig({
             },
           },
         },
-        locales: {
-          uk: {
-            translations: {
-              button: {
-                buttonText: 'Пошук',
-                buttonAriaLabel: 'Пошук'
-              },
-              modal: {
-                displayDetails: 'Відобразити детальний список',
-                noResultsText: 'Нічого не знайшли',
-                resetButtonTitle: 'Скинути пошук',
-                footer: {
-                  selectText: 'для вибору',
-                  selectKeyAriaLabel: 'enter',
-                  navigateText: 'для навігації',
-                  navigateUpKeyAriaLabel: 'стрілка вгору',
-                  navigateDownKeyAriaLabel: 'стрілка вниз',
-                  closeText: 'закрити',
-                  closeKeyAriaLabel: 'escape',
-                },
-              },
-            },
-          },
-        },
       },
     },
 
