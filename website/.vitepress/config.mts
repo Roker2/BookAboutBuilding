@@ -8,8 +8,6 @@ import { uaConfig } from './locales/ua'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   lastUpdated: true,
-  outDir: './dist',
-  srcExclude: [],
   scrollOffset: 'header',
   cleanUrls: true,
 
@@ -47,7 +45,7 @@ export default defineConfig({
     }
   },
 
-  base: '/ViteAboutAndroidBuilding',
+  base: '/ViteAboutAndroidBuilding/',
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
