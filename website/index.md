@@ -16,6 +16,9 @@ hero:
     - theme: brand
       text: Введение
       link: /Introduction
+    - theme: alt
+      text: Оцените нас на GitHub
+      link: https://github.com/Roker2/BookAboutBuilding
 
 # &nbsp - пробел
 features:
