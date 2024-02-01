@@ -3,7 +3,7 @@ import type { DefaultTheme, LocaleSpecificConfig } from 'vitepress'
 export const ConfigRu: LocaleSpecificConfig<DefaultTheme.Config> = {
     nav: [
         { text: 'Главная', link: '/' },
-        { text: 'Приступить к изучению', link: '/Chapter1/c1p1' },
+        { text: 'Приступить к изучению', link: '/Introduction' },
         /*{
         text: 'Dropdown Menu',
         items: [
