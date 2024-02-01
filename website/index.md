@@ -12,8 +12,14 @@ hero:
       light: /android_book.png
       dark: /android_book.png
 
+  actions:
+    - theme: brand
+      text: Введение
+      link: /Introduction
+
 # &nbsp - пробел
 features:
+
   - icon: 👉
     title: Глава 1:&nbspНачало начал
     details: Первоначальная настройка окружения и скачивание исходников

@@ -65,6 +65,10 @@ export const ConfigRu: LocaleSpecificConfig<DefaultTheme.Config> = {
 
     sidebar: [
         {
+        text: "Введение",
+        link: "/Introduction",
+        },
+        {
         text: 'Глава 1: Начало начал',
         items: [
             { text: 'Параграф 1: Выбор подходящей системы', link: '/Chapter1/c1p1' },
