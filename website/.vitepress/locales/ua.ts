@@ -91,6 +91,10 @@ export const configUa = {
             { text: 'Параграф 5: Список корисних утиліт і застосунків', link: '/ua/Chapter6/c6p5' },
           ]
         },
+        {
+        text: "Ресурси та джерела",
+        link: "/ua/Resources",
+        },
     ],
 
     outline: {
