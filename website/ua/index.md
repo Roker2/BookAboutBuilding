@@ -12,6 +12,14 @@ hero:
       light: android_book-ua.png
       dark: android_book-ua.png
 
+  actions:
+    - theme: brand
+      text: Вступ
+      link: /Introduction
+    - theme: alt
+      text: Оцініть нас на GitHub
+      link: https://github.com/Roker2/BookAboutBuilding
+
 features:
   - title: "👉 Розділ 1: Початок починань"
     details: Початкове налаштування оточення і скачування вихідних кодів
