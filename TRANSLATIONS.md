@@ -138,7 +138,7 @@ will need to change a few things from their default configuration:
 1. Check the **Wrap at** box, and **79** on the textbox
 1. _**Uncheck**_ the **Preserve formatting of existing files** box
 
-![Poedit Screenshot](src/images/poedit-screenshot.png)
+![Poedit Screenshot](website/public/poedit-screenshot.png)
 
 ## Using Translations
 
