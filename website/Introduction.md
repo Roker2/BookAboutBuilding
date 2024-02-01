@@ -1,6 +1,6 @@
 <p align="center">
   <img src="/icon.png" width="128"/>
-  <p align="center"><b>BookAboutBuilding</p>
+  <p align="center"><b>BookAboutBuilding</b></p>
 </p>
 
 ## Введение
