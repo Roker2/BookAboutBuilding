@@ -108,7 +108,7 @@ export const configUa = {
     },
 
     editLink: {
-        pattern: 'https://github.com/CakesTwix/ViteAboutAndroidBuilding/edit/master/website/:path',
+        pattern: 'https://github.com/Roker2/BookAboutBuilding/edit/master/website/:path',
         text: 'Запропонувати зміни для цієї сторінки',
       },
     

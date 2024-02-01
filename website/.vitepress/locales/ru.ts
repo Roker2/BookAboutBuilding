@@ -15,7 +15,7 @@ export const ConfigRu: LocaleSpecificConfig<DefaultTheme.Config> = {
     ],
 
     editLink: {
-        pattern: 'https://github.com/CakesTwix/ViteAboutAndroidBuilding/edit/master/website/:path',
+        pattern: 'https://github.com/Roker2/BookAboutBuilding/edit/master/website/:path',
         text: 'Предложить изменения для данной страницы',
     },
 

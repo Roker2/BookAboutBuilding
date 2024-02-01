@@ -45,14 +45,14 @@ export default defineConfig({
     }
   },
 
-  base: '/ViteAboutAndroidBuilding/',
+  base: '/BookAboutBuilding/',
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/Android.png',
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/CakesTwix/ViteAboutAndroidBuilding' },
+      { icon: 'github', link: 'https://github.com/Roker2/BookAboutBuilding' },
       {
       icon: {
           svg: telegram,
