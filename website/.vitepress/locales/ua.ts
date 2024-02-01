@@ -3,7 +3,7 @@ import type { DefaultTheme, LocaleSpecificConfig, LocaleConfig} from 'vitepress'
 export const configUa = {
     nav: [
         { text: 'Головна', link: '/ua/' },
-        { text: 'Приступити до вивчення', link: '/ua/Chapter1/c1p1' },
+        { text: 'Приступити до вивчення', link: '/ua/Introduction' },
     ],
 
     search: {
@@ -32,6 +32,10 @@ export const configUa = {
     },
 
     sidebar: [
+        {
+        text: "Вступ",
+        link: "ua/Introduction",
+        },
         {
           text: 'Розділ 1: Початок починань',
           items: [
