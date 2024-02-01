@@ -130,6 +130,12 @@ const members = [
     links: [
       { icon: 'github', link: 'https://github.com/myslivets' },
       { icon: 'youtube', link: 'https://www.youtube.com/@DanielM' },
+      { 
+        icon: {
+          svg: telegram2,
+        },
+        link: 'https://t.me/daneo03'
+      },
     ]
   },
   {
