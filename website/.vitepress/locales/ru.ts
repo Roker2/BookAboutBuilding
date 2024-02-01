@@ -123,6 +123,10 @@ export const ConfigRu: LocaleSpecificConfig<DefaultTheme.Config> = {
             { text: 'Параграф 5: Список полезных утилит и приложений', link: '/Chapter6/c6p5' },
         ]
         },
+        {
+        text: "Ресурсы и источники",
+        link: "/Resources",
+        },
     ],
 }
 
