@@ -1,0 +1,22 @@
+:root {
+  --vp-border-radius: 20px;
+
+  .VPSidebarItem.level-1.is-active > .item > .indicator,
+  .VPSidebarItem.level-2.is-active > .item > .indicator,
+  .VPSidebarItem.level-3.is-active > .item > .indicator,
+  .VPSidebarItem.level-4.is-active > .item > .indicator,
+  .VPSidebarItem.level-5.is-active > .item > .indicator {
+      background-color: var(--vp-c-brand-1);
+      transition-duration: 0.1s;
+      transition-property: opacity;
+  }
+
+  main img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+    margin-bottom: 24px;
+		border-radius: var(--vp-border-radius);
+		box-shadow: 2px 2px 8px 4px var(--vp-c-bg-alt);
+	}
+}
