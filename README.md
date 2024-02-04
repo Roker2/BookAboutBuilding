@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="src/images/icon.png" width="128"/>
+  <img src="website/public/icon.png" width="128"/>
   <p align="center"><b>BookAboutBuilding</b></p>
 </p>
 
@@ -25,19 +25,15 @@ Read [`TRANSLATIONS.md`](TRANSLATIONS.md) and make a translation according to th
 
 # 🔨 Сборка
 
-Для генерации книжки, мы используем утилиту [`mdbook`](https://github.com/rust-lang/mdBook).
+Для генерации книжки, мы используем [VitePress](https://vitepress.dev/).
 1. <b>🦀 Установка</b>
 
 	```
-	cargo install mdbook mdbook-i18n-helpers mdbook-epub mdbook-external-links
+	npm add -D vitepress
+	npm i -D vitepress-plugin-tabs
 	```
-2. <b>🔨 Сборка</b><br>
-В директории book/ сгенерируются HTML страницы, которые можно захостить через nginx или с помощью GitHub Actions.
+2. <b>🚀 Запуск</b>
+	Чтобы посмотреть на результат, выполните эту команду. Утилита запустит локальный Web-сервер на localhost на 5173 порту.
 	```
-	mdbook build
-	```
-3. <b>🚀 Запуск</b><br>
-Чтобы посмотреть на результат, выполните эту команду. Утилита запустит локальный Web-сервер на localhost на 3000 порту.
-	```
-	mdbook serve
+	npm run docs:dev
 	```
