@@ -38,7 +38,6 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
-          cache: npm # or pnpm / yarn
       - run: npm i --frozen-lockfile
       - name: Setup Pages
         uses: actions/configure-pages@v3
