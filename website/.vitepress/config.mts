@@ -45,8 +45,6 @@ export default defineConfig({
     }
   },
 
-  base: '/BookAboutBuilding/',
-
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/Android.png',
