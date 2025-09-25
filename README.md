@@ -1,3 +1,35 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=Roker2&project=BookAboutBuilding&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=Roker2&project=BookAboutBuilding&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Roker2&project=BookAboutBuilding&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=Roker2&project=BookAboutBuilding&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=Roker2&project=BookAboutBuilding&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=Roker2&project=BookAboutBuilding&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=Roker2&project=BookAboutBuilding&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=Roker2&project=BookAboutBuilding&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=Roker2&project=BookAboutBuilding&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=Roker2&project=BookAboutBuilding&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=Roker2&project=BookAboutBuilding&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=Roker2&project=BookAboutBuilding&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=Roker2&project=BookAboutBuilding&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=Roker2&project=BookAboutBuilding&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=Roker2&project=BookAboutBuilding&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=Roker2&project=BookAboutBuilding&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=Roker2&project=BookAboutBuilding&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=Roker2&project=BookAboutBuilding&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=Roker2&project=BookAboutBuilding&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=Roker2&project=BookAboutBuilding&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=Roker2&project=BookAboutBuilding&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 <p align="center">
   <img src="website/public/icon.png" width="128"/>
   <p align="center"><b>BookAboutBuilding</b></p>
