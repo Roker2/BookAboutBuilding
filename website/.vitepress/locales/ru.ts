@@ -96,6 +96,7 @@ export const ConfigRu: LocaleSpecificConfig<DefaultTheme.Config> = {
             { text: 'Введение', link: '/Chapter4/c4p0' },
             { text: 'Параграф 1: Дампы, vendor, proprietary-files.txt и обновление библиотек', link: '/Chapter4/c4p1' },
             { text: 'Параграф 5: Обновление и сборка ядра', link: '/Chapter4/c4p5' },
+            { text: 'Параграф 6: Поиск ошибок', link: '/Chapter4/c4p6' },
         ]
         },
         {
