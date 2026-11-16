@@ -115,6 +115,7 @@ export const ConfigRu: LocaleSpecificConfig<DefaultTheme.Config> = {
         text: 'Глава 6: Дополнительный материал, который не вошел в основную часть',
         items: [
             { text: 'Параграф 1: Ошибки сборки (SELinux, нехватка пакетов, ресурсов и тд)', link: '/Chapter6/c6p1' },
+            { text: 'Параграф 2: Базовые команды Linux', link: '/Chapter6/c6p2' },
             { text: 'Параграф 5: Список полезных утилит и приложений', link: '/Chapter6/c6p5' },
         ]
         },
